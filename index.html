@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta http-equiv="refresh" content="5" charset="UTF-8">
+    <title>Comprobador_de_temperatura</title>
+
+    <style>
+        body{
+            font-family: monospace;
+            background-color:beige;
+         } 
+         h1{ 
+            color: black;
+            text-align: center;
+            margin: 50px;
+            font-size: 18px;
+         }
+         .barraTemp{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            margin: auto;
+            border-radius: 50%;
+            overflow: hidden;
+
+         } 
+         .cont{
+            height: 100px;
+            width: 200px;
+
+         }
+         .circulo_medio{
+            width: 150px;
+            height: 150px;
+            background-color: beige;
+            border-radius: 50%;
+            margin: auto;
+            position: relative;
+            margin: -175px auto 50px;
+
+
+
+         }
+         .rectangulo{
+            width: 200px;
+            height: 100;
+            background-color: beige;
+            position: relative;
+            margin: -125px auto 50px;
+
+
+
+         } 
+    </style>
+</head>
+
+<body>
+    <h1>Toma-de-temperatura</h1>
+    <h1>Temperatura</h1>
+        <div class="barraTemp" style="transform: rotate(35deg);">
+                <div class="cont" style="background-color: rgb(143, 136, 126);"></div>
+                <div class="cont" style="background-color: rgb(253, 0, 0);"></div>
+        </div>
+        <div class="circulo_medio"></div>
+        <div class="rectangulo"></div>
+        <h1 style="font-size: 22px;  position: relative; margin: -125px auto 50px;">27.9 °CS </h1>
+
+        <h1>Humedad</h1>
+        <div class="barraTemp" style="transform: rotate(65deg);">
+                <div class="cont" style="background-color: rgb(143, 136, 126);"></div>
+                <div class="cont" style="background-color: rgb(253, 0, 0);"></div>
+        </div>
+        <div class="circulo_medio"></div>
+        <div class="rectangulo"></div>
+        <h1 style="font-size: 22px;  position: relative; margin: -125px auto 50px;">65 % </h1>
+    </body>
+</html>
